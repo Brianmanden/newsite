@@ -1,11 +1,13 @@
 body{
-    background: #f2f2f2;
+    background: #f2f2f2 url(../img/tree3.jpg) no-repeat center top;
+    background-size: 100%;
 }
 
-.container{
-    background-color: #ddd;
-    border-radius: 3px;
-    margin-top: 20px;
+.container-fluid{
+    background-color:rgba(180, 180, 180, 0.35);
+    border-radius: 5px;
+    margin: 5%;
+    padding: 0 5%;
 }
 
 .nav>li{
@@ -23,15 +25,20 @@ body{
     margin-left: 20px;
 }
 
-#profileImg{
-    border-radius: 3px;
-    width: 165px;
+.profileImg{
+    border-radius: 5px;
+    width: 100%;
 }
 
-.expDiv{
+.item{
     background: #f2f2f2;
-    border-radius: 3px;
+    border-radius: 5px;
     margin-bottom: 20px;
     margin-left: 5px;
     margin-right: 5px;
+    padding: 4% 7%;
+}
+
+.red{
+    outline: 1px solid red;
 }

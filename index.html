@@ -1,8 +1,5 @@
-<!doctype <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!DOCTYPE html>
+<html>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,75 +9,88 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 		<link href="./styles/style.css" rel="stylesheet">
-
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
-        <div class="container">
+        <div class="container-fluid">
             <div class="page-header text-center">
                 <h1>Brian Juul Andersen</h1>
-                <h4>Frontend developer with a couple of years experience.</h4>
+                <h2>Frontend developer with a couple of years experience.</h2>
             </div>
             <div class="row">
-                <div class="col-sm-1">&nbsp;</div>
-                <div class="col-sm-3">
-                    <img id="profileImg" src="./img/profileImg.jpg" />
-                </div>
-                <div class="col-sm-3">
-                    <h4>
-                        Who am I ?
-                    </h4>
-                    <h5>A Few Words About Me</h5>
+                <div class="col-xs-5 col-sm-5"><img class="profileImg" src="./img/profileImg.jpg" /></div>
+                <div class="col-xs-7 col-sm-7">
+                    <h3>Who am I ?</h3>
+                    <h4>A Few Words About Me</h4>
                     <p>Lorem ipsum dolor sit amet</p>
                     <p>tellus massa iaculis, elementum</p>
                     <p>turpis eu dui, suspendisse tempus</p>
                 </div>
-                <div class="col-sm-4">
-                    <h4>Skills & technologies</h4>
-                    <small>HTML(5), CSS(3), JavaScript / jQuery</small>
+                <div class="col-xs-12 col-sm-12 col-md-7">
+                    <h3 class="page-header">Skills & technologies</h3>
+                    <h4>HTML(5), CSS(3), JavaScript / jQuery</h4>
                     <div class="progress">
                         <div class="progress-bar" role="progressbar" style="width: 95%;">95%</div>
                     </div>
-                    <small>Umbraco CMS</small>
+                    <h4>Umbraco CMS</h4>
                     <div class="progress">
                         <div class="progress-bar" role="progressbar" style="width: 100%;">100%</div>
                     </div>
-                    <small>AngularJS</small>
+                    <h4>AngularJS</h4>
                     <div class="progress">
                         <div class="progress-bar" role="progressbar" style="width: 90%;">90%</div>
                     </div>
-                    <small>C# / .Net MVC</small>
+                    <h4>C# / .Net MVC</h4>
                     <div class="progress">
                         <div class="progress-bar" role="progressbar" style="width: 85%;">85%</div>
                     </div>
-                    <small>RESTful API´s</small>
+                    <h4>RESTful API´s</h4>
                     <div class="progress">
                         <div class="progress-bar" role="progressbar" style="width: 85%;">85%</div>
                     </div>
                 </div>
-                <div class="col-sm-1">&nbsp;</div>
             </div>
-            <div class="page-header text-center">
-                <h4>Working experience</h4>
-            </div>
-            <div class="row">
-                <div class="col-sm-1">&nbsp;</div>
-                <div class="col-sm-3 expDiv">
+
+            <div class="col-xs-12 col-sm-12 col-md-6">
+                <h3 class="page-header">Working experience</h3>
+                <div class="col-sm-12 item text-left">
                     <h4>Pragmasoft</h4>
-                    <p>
-                        At Pragmasoft A/S I had various tasks in frontend, backend and databases. These tasks included testing, fixing errors, adding new features to existing projects and starting a project from scratch.
-                    </p>
+                    <p>At Pragmasoft A/S I had various tasks in frontend, backend and databases. These tasks included testing, fixing errors, adding new features to existing projects and starting a project from scratch.</p>
                 </div>
-                <div class="col-sm-3 expDiv">
+                <div class="col-sm-12 item text-left">
                     <h4>Økologisk Landsforening</h4>
-                    <p>At ØLF I developed templates used in Umbraco CMS to run okologi.dk - the main site of ØLF. I also developed various campaign sites from given graphical layouts</p>                </div>
-                <div class="col-sm-3 expDiv">
+                    <p>At ØLF I developed templates used in Umbraco CMS to run okologi.dk - the main site of ØLF. I also developed various campaign sites from given graphical layouts</p>
+                </div>
+                <div class="col-sm-12 item text-left">
                     <h4>CrossMind Reklamebureau</h4>
-                    <p>At Crossmind (advertising agency) I developed sites from given graphical layouts in Umbraco CMS. I also did minor tasks in content and media editing.</p>                </div>
-                <div class="col-sm-1">&nbsp;</div>
+                    <p>At Crossmind (advertising agency) I developed sites from given graphical layouts in Umbraco CMS. I also did minor tasks in content and media editing.</p>
+                </div>
+            </div>
+
+            <div class="col-md-1">&nbsp;</div>
+
+            <div class="col-md-5">
+                <h3 class="page-header">Education</h3>
+                <div class="col-sm-12 item text-left">
+                    <h4>Prof. Bach. in Webdevelopment</h4>
+                    <p>Lorem ipsum dolor sit amet</p>
+                    <a href="#">Link to ...</a>
+                </div>
+                <div class="col-sm-12 item text-left">
+                    <h4>Multimedia Designer</h4>
+                    <p>Lorem ipsum dolor sit amet</p>
+                    <a href="#">Link to ...</a>
+                </div>
+            </div>
+
+            <div class="col-md-1">&nbsp;</div>
+
+            <div class="col-md-5">
+                <h3 class="page-header">CV</h3>
+                <div class="col-sm-12 item text-left">
+                    <h4>Curriculum vitae</h4>
+                    <p>You can find my CV here:</p>
+                    <a href="http://kree8tive.dk/CV/CV-Resume.pdf" target="_blank">CV (PDF format)</a>
+                </div>
             </div>
         </div>
 
