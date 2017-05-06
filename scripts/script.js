@@ -1,0 +1,1 @@
+$('.contactInfo').click(function(){ window.open('mailto:mail@kree8tive.dk?subject=Hi there ...&body=Hello%0A%0AI want to talk to you about...' ,'_blank'); });

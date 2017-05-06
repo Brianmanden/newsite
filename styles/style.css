@@ -1,24 +1,22 @@
 body{
-    background: #f2f2f2 url(../img/tree3.jpg) no-repeat center top;
-    background-size: 100%;
+    background: #f2f2f2 url(../img/dis2.jpg) no-repeat center top;
+    background-size: cover;
+}
+
+h4{
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .container-fluid{
-    background-color:rgba(180, 180, 180, 0.35);
+    background-color:rgba(180, 180, 180, 0.1);
     border-radius: 5px;
     margin: 4%;
     padding: 3% 5% 8%;
 }
 
-.nav>li{
-    margin: 10px;
-}
-
-.nav-pills>li.active>a,
-.nav-pills>li.active>a:focus,
-.nav-pills>li.active>a:hover {
-    background-color: transparent;
-    color: inherit;
+.page-header {
+    margin-top: 5px;
 }
 
 .page-header small{
@@ -28,19 +26,28 @@ body{
 .profileImg{
     border-radius: 5px;
     width: 100%;
+    margin-bottom: 25px;
+}
+
+.glyphicon-envelope{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.contactInfo{
+    cursor: pointer;
+    font-size: 26px;
 }
 
 .smallItem{
-    background:rgba(242, 242, 242, 0.3);
+    background:rgba(242, 242, 242, 0.15);
     border-radius: 5px;
     padding: 1% 2%;
 }
 
 .item{
-    background: rgba(242, 242, 242, 0.3);
+    background: rgba(242, 242, 242, 0.15);
     border-radius: 5px;
-    margin-bottom: 20px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin: 0 5px 20px 5px;
     padding: 4% 7%;
 }

@@ -1,5 +1,4 @@
-- container background
-    - gradient ?
+- add examples
 - transitions
 - LESS / SASS ?
 - fav icon
