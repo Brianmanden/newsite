@@ -6,8 +6,8 @@ body{
 .container-fluid{
     background-color:rgba(180, 180, 180, 0.35);
     border-radius: 5px;
-    margin: 5%;
-    padding: 0 5%;
+    margin: 4%;
+    padding: 3% 5% 8%;
 }
 
 .nav>li{
@@ -30,15 +30,17 @@ body{
     width: 100%;
 }
 
+.smallItem{
+    background:rgba(242, 242, 242, 0.3);
+    border-radius: 5px;
+    padding: 1% 2%;
+}
+
 .item{
-    background: #f2f2f2;
+    background: rgba(242, 242, 242, 0.3);
     border-radius: 5px;
     margin-bottom: 20px;
     margin-left: 5px;
     margin-right: 5px;
     padding: 4% 7%;
-}
-
-.red{
-    outline: 1px solid red;
 }

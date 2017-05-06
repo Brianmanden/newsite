@@ -3,3 +3,4 @@
 - transitions
 - LESS / SASS ?
 - fav icon
+- fix hardcoded URL´s
