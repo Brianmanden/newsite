@@ -1,5 +1,5 @@
 - add examples
 - transitions
 - LESS / SASS ?
-- fav icon
+- minify
 - fix hardcoded URL´s
