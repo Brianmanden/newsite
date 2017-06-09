@@ -3,6 +3,10 @@ body{
     background-size: cover;
 }
 
+div{
+    margin-bottom: 20px;
+}
+
 h3::first-letter{
     color: rgba(255, 0, 0, 0.8);
     font-size: 135%;
