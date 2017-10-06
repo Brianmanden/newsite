@@ -1,6 +1,7 @@
 body{
-    background: #f2f2f2 url(../img/dis2.jpg) no-repeat center top;
+    background: #f2f2f2 url(../img/pattern02.png) no-repeat center top;
     background-size: cover;
+    color: rgba(76, 30, 7, 0.9)
 }
 
 div{
@@ -25,7 +26,9 @@ h4{
 }
 
 .page-header {
-    margin-top: 5px;
+    padding-bottom: 2px;
+    margin: 5px 0 10px;
+    border-bottom: none;
 }
 
 .page-header small{
