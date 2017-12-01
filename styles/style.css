@@ -1,7 +1,7 @@
 body{
-    background: #f2f2f2 url(../img/pattern02.png) no-repeat center top;
+    background: #f2f2f2 url(../img/pattern07.png) no-repeat center top;
     background-size: cover;
-    color: rgba(76, 30, 7, 0.9)
+    color: rgba(76, 30, 7, 0.9);
 }
 
 div{
@@ -22,13 +22,15 @@ h4{
     background-color:rgba(180, 180, 180, 0.1);
     border-radius: 5px;
     margin: 4%;
+	margin-top: 0;
     padding: 3% 5% 8%;
 }
 
 .page-header {
-    padding-bottom: 2px;
-    margin: 5px 0 10px;
     border-bottom: none;
+	margin: 5px 0 10px;
+	padding-bottom: 2px;
+	position: relative;
 }
 
 .page-header small{
@@ -37,8 +39,8 @@ h4{
 
 .profileImg{
     border-radius: 5px;
-    width: 100%;
     margin-bottom: 25px;
+	width: 100%;
 }
 
 .glyphicon-envelope{
@@ -48,8 +50,7 @@ h4{
 
 .contactInfo{
     cursor: pointer;
-    font-size: 26
-    px;
+    font-size: 26px;
 }
 
 .smallItem{
@@ -59,8 +60,57 @@ h4{
 }
 
 .item{
-    background: rgba(242, 242, 242, 0.15);
+    background: rgba(255, 255, 255, 0.1);
     border-radius: 5px;
+    box-shadow: -3px 3px 10px 1px rgba(0,0,0,0.05);
     margin: 0 5px 20px 5px;
     padding: 4% 7%;
 }
+
+#bckGrAnim {
+	margin:0 auto;
+	position:relative;
+}
+
+#bckGrAnim img {
+	background-size: cover;
+	left:0;
+	position:absolute;
+	width: 100%;
+	
+	/*
+	-webkit-animation-name: bckGrAnimFadeInOut;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-duration: 48s;
+
+	-moz-animation-name: bckGrAnimFadeInOut;
+	-moz-animation-timing-function: ease-in-out;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-duration: 48s;
+
+	-o-animation-name: bckGrAnimFadeInOut;
+	-o-animation-timing-function: ease-in-out;
+	-o-animation-iteration-count: infinite;
+	-o-animation-duration: 48s;
+	*/
+
+	animation-name: bckGrAnimFadeInOut;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-duration: 12s;
+}
+
+@keyframes bckGrAnimFadeInOut {
+	0% { opacity:0.1; }
+	50% { opacity:1; }
+	100% { opacity:0.05; }
+}
+
+#bckGrAnim img:nth-of-type(1) { animation-delay: 72s; }
+#bckGrAnim img:nth-of-type(2) { animation-delay: 60s; }
+#bckGrAnim img:nth-of-type(3) { animation-delay: 48s; }
+#bckGrAnim img:nth-of-type(4) { animation-delay: 36s; }
+#bckGrAnim img:nth-of-type(5) { animation-delay: 24s; }
+#bckGrAnim img:nth-of-type(6) { animation-delay: 12s; }
+#bckGrAnim img:nth-of-type(7) { animation-delay: 0s; }

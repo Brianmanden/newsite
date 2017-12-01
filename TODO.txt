@@ -1,5 +1,7 @@
-- add examples
+﻿- add examples
 - transitions
 - LESS / SASS ?
 - minify
 - fix hardcoded URL´s
+- look into performance
+-- remove JS ?
