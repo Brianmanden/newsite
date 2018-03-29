@@ -45,7 +45,7 @@ backgroundImage.src = imgs[0];
 
 setInterval(function(){
 	nextImage();
-}, 10000);
+}, 60000);
 
 function nextImage(){
 	counter++;

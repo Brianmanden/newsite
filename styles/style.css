@@ -22,8 +22,6 @@ h3::first-letter{
     color: rgba(255, 0, 0, 0.8);
     font-size: 220%;
 	font-weight: 100;
-    /* padding-left: 20px; */
-    padding-right: 3px;
 }
 
 h4{
@@ -72,7 +70,6 @@ h4{
     background: rgba(200, 200, 200, 0.3);
     border-radius: 5px;
     cursor: pointer;
-    /* display: inline; */
     font-size: 26px;
     padding: 10px;
 }
@@ -100,6 +97,10 @@ h4{
     padding: 4% 7%;
 }
 
+.whoami{
+    padding: 8% 16%;
+}
+
 #myCanvas{
     filter: opacity(50%);
 	position: fixed;
@@ -108,4 +109,14 @@ h4{
 .label{
     background: rgba(255, 255, 255, 0.3);
     color: #000;
+}
+
+.logo-container{
+    background: unset;
+    margin: 10px 0;
+    padding-top: 10px;
+}
+
+.logo-container strong{
+    margin-left: 10px;
 }
