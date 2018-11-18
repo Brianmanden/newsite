@@ -10,6 +10,7 @@ function addListener(element, eventName, handler) {
 		element['on' + eventName] = handler;
 	}
 }
+
 addListener(
 	document.getElementById('contact-info'),
 	'click', function(){
@@ -24,7 +25,8 @@ var imgs = [
 	"./img/plasma04.png",
 	"./img/plasma05.png",
 	"./img/plasma06.png",
-	"./img/plasma07.png"];
+	"./img/plasma07.png"
+];
 
 var canvas = document.getElementById("my-canvas");
 var ctx = canvas.getContext("2d");
@@ -49,9 +51,5 @@ setInterval(function(){
 
 function nextImage(){
 	counter++;
-	if(counter < imgs.length - 1){
-		backgroundImage.src = imgs[counter];
-	}else{
-		counter = 0;
-	}
+	counter < imgs.length - 1 ? backgroundImage.src = imgs[counter] : counter = 0;
 };
