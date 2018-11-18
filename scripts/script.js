@@ -11,7 +11,7 @@ function addListener(element, eventName, handler) {
 	}
 }
 addListener(
-	document.getElementById('contactInfo'),
+	document.getElementById('contact-info'),
 	'click', function(){
 	window.open('mailto:mail@kree8tive.dk?subject=Hi there ...&body=Hello%0A%0AI want to talk to you about...' ,'_blank');
 });
@@ -26,7 +26,7 @@ var imgs = [
 	"./img/plasma06.png",
 	"./img/plasma07.png"];
 
-var canvas = document.getElementById("myCanvas");
+var canvas = document.getElementById("my-canvas");
 var ctx = canvas.getContext("2d");
 
 canvas.width = window.innerWidth;

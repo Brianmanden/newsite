@@ -54,7 +54,7 @@ h4{
     padding-top: 5px;
 }
 
-.profileImg{
+.profile-img{
     border-radius: 5px;
     margin-bottom: 25px;
 	width: 100%;
@@ -66,7 +66,7 @@ h4{
     font-size: 30px;
 }
 
-#contactInfo{
+#contact-info{
     background: rgba(200, 200, 200, 0.3);
     border-radius: 5px;
     cursor: pointer;
@@ -74,11 +74,12 @@ h4{
     padding: 10px;
 }
 
-#contactInfo:hover{
+#contact-info:hover{
     background: rgba(220, 220, 220, 0.3);
 }
 
-.smallItem{
+.small-item{
+    outline: 3px solid red;
     background:rgba(242, 242, 242, 0.15);
     border-radius: 5px;
     padding: 1% 2%;
@@ -87,7 +88,6 @@ h4{
 .item{
     background: rgba(255, 255, 255, 0.3);
     border-radius: 5px;
-    /*box-shadow: -3px 3px 10px 1px rgba(0,0,0,0.05);*/
 	box-shadow:
 		-10px 10px 16px 0px rgba(0,0,0,0.05),
 		-3px 3px 10px 1px rgba(0,0,0,0.05),
@@ -101,7 +101,7 @@ h4{
     padding: 8% 16%;
 }
 
-#myCanvas{
+#my-canvas{
     filter: opacity(50%);
 	position: fixed;
 }
