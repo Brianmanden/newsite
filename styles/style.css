@@ -119,6 +119,11 @@ h4{
     padding-top: 10px;
 }
 
-.logo-container strong{
-    margin-left: 10px;
+.logo-container img{
+    height: 100px;
+}
+
+.logo-container .col-xs-4 img,
+.logo-container .col-sm-4 img{
+    height: 70px;
 }
