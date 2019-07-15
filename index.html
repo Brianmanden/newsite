@@ -4,197 +4,232 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>kree8tive.dk</title>
-		<link rel="stylesheet" href="./styles/bootstrap.min.css" />
+        <!-- <link rel="stylesheet" href="./styles/bootstrap.min.css" /> -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link rel="icon" type="image/png" href="./img/favicon.ico">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
     <body>
-        <canvas id="my-canvas" width="100%" height="100%"></canvas>
-
-        <div class="container-fluid">
-            <div class="row page-header text-center">
-                <h1>Brian Juul Andersen</h1>
-                <h2>Fullstack / frontend developer</h2>
+        <div id="carouselFade" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active"><img src="./img/plasma01.png" class="d-block w-100"></div>
+                <div class="carousel-item"><img src="./img/plasma02.png" class="d-block w-100"></div>
+                <div class="carousel-item"><img src="./img/plasma03.png" class="d-block w-100"></div>
+                <div class="carousel-item"><img src="./img/plasma04.png" class="d-block w-100"></div>
+                <div class="carousel-item"><img src="./img/plasma05.png" class="d-block w-100"></div>
+                <div class="carousel-item"><img src="./img/plasma06.png" class="d-block w-100"></div>
+                <div class="carousel-item"><img src="./img/plasma07.png" class="d-block w-100"></div>
             </div>
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-4 ">
+        </div>
+
+        <div class="jumbotron jumbotron-fluid bg-transparent">
+            <div class="container-fluid">
+                <div class="card text-center">
+                    <h1 class="display-3">Brian Juul Andersen</h1>
+                    <h2 class="display-4">Fullstack / frontend web developer</h2>
+                </div>
+            
+            <div class="row text-left">
+                <div class="col-xs-12 col-sm-12 col-md-5">
                     <div class="col-xs-12 col-sm-4 col-md-12">
-                        <img class="profile-img" src="./img/BrianJuulAndersen.jpg" width="320"/>
+                        <img class="profile-img responsive-image" src="./img/BrianJuulAndersen.jpg" width="320"/>
                         <p class="text-center" id="contact-info"><span class="glyphicon glyphicon-envelope red"></span> Contact Me</p>
                     </div>
                     <div class="col-xs-12 col-sm-8 col-md-12">
                         <h3 class="page-legend">Who am I?</h3>
-                        <div class="list-group item who-am-i">
-                            <h4>A Few Words About Me</h4>
-                            <p>I am a broadly founded frontend developer with a couple of years experience in implementing graphical layouts with HTML and CSS.</p>
-                            <p>I find frontend, backend and databases exciting technologies to work with - that's why I aim at becoming a fullstack developer.</p>
-                            <small><strong>Key words:</strong></small>
-                            <br />
-                            <small><a href="https://www.16personalities.com/intj-personality" target="_blank">INTJ</a>, Web Development, Heavy Metal, <a href="https://en.wikipedia.org/wiki/Bushcraft" target="_blank">Bushcraft</a> & bacon ;)</small>
+                        <div class="card col-12">
+                            <div class="card-body">    
+                                <h6 class="card-title">A Few Words About Me</h6>
+                                <p class="card-text">I am a broadly founded frontend developer with a couple of years experience in implementing graphical layouts in content management systems and developing features in a complex Single Page Application.</p>
+                                <p class="card-text">I find that both frontend, backend and databases are exciting technologies to work with - that's why I aim at becoming a fullstack developer.</p>
+                            </div>
+                            <div class="card-footer bg-transparent">
+                                <h6>Key words:</h6>
+                                <p><a href="https://www.16personalities.com/intj-personality" target="_blank">INTJ</a>, Web Dev., Heavy Metal, <a href="https://en.wikipedia.org/wiki/Bushcraft" target="_blank">Bushcraft</a> & bacon ;)</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-8">
+                <div class="col-xs-12 col-sm-12 col-md-7">
                     <h3 class="page-legend">Skills & technologies</h3>
-                    <div class="list-group item">
-                        <h4 class="list-group-item-heading">The Basics</h4>
-                        <p class="list-group-item-text">Hard to get by without markup, styling and a little scripting. I have used these technologies for years.</p>
-                        <div class="row logo-container">
-                            <div class="col-xs-4 col-sm-4 col-md-4">
-                                <img src="./img/HTML5.svg" alt="HTML5" height="100px" />
-                            </div>
-                            <div class="col-xs-4 col-sm-4 col-md-4">
-                                <img src="./img/CSS3.svg" alt="CSS3" height="100px" />
-                            </div>
-                            <div class="col-xs-4 col-sm-4 col-md-4">
-                                <img src="./img/JS.svg" alt="JavaScript" height="100px" />
-                            </div>
+                    <div class="card col-12">
+                        <div class="card-body">    
+                            <h6 class="card-title">The basics</h6>
+                            <img class="col-2"  height="110px"  alt="HTML5"         src="./img/HTML5.svg" />
+                            <img class="col-2"  height="110px"  alt="CSS3"          src="./img/CSS3.svg" />
+                            <img class="col-2"  height="90px"   alt="JavaScript"    src="./img/JS.svg" />
+                            <p class="card-text">Hard to get by without markup, styling and a little scripting. I have used these technologies for years.</p>
+                            <p class="card-text">Other technologies I use on a daily basis: <a href="https://stackshare.io/Brianmanden/uvdata" target="_blank">Daily stack&#x29C9;</a></p>
                         </div>
-						<p class="list-group-item-text">Other technologies I use on a daily basis: <a href="https://stackshare.io/Brianmanden/uvdata" target="_blank">Daily stack&#x29C9;</a></p>
-						
-						<!--
-						<div class="row">
-							<p>Other technologies I use on a daily basis: <a href="https://stackshare.io/Brianmanden/uvdata" target="_blank">Daily stack&#x29C9;</a></p>
-						</div>
-						-->
                     </div>
-
-                    <div class="list-group item">
-                        <h4 class="list-group-item-heading">Content Management Systems</h4>
-                        <p class="list-group-item-text"><a href="https://umbraco.com/" target="_blank">Umbraco CMS</a> - My favorite CMS! ... I have used it for several years - mostly on the frontend.</p>
-                        <p class="list-group-item-text">I have dabbled in other CMS´es like <a href="https://wordpress.com/" target="_blank">WordPress</a>, <a href="https://www.joomla.org/" target="_blank">Joomla</a> and <a href="https://www.drupal.org/" target="_blank">Drupal</a> too.</p>
+                    <div class="card col-12">
+                        <div class="card-body">    
+                            <h6 class="card-title">Content Management Systems</h6>
+                            <p class="card-text"><a href="https://umbraco.com/" target="_blank">Umbraco CMS</a> - My favorite CMS! ... I have used it for several years - mostly on the frontend.</p>
+                            <p class="card-text">I have dabbled in other CMS´es like: <a href="https://wordpress.com/" target="_blank">WordPress</a>, <a href="https://www.joomla.org/" target="_blank">Joomla</a> and <a href="https://www.drupal.org/" target="_blank">Drupal</a> too.</p>
+                        </div>
                     </div>
-                    <div class="list-group item">
-                        <h4 class="list-group-item-heading">Frameworks and libraries</h4>
-                        <p class="list-group-item-text">I got a fair knowledge and experience with <a href="https://angularjs.org/" target="_blank">AngularJS</a>, <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a>, <a href="https://expressjs.com/" target="_blank">Express</a>, <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a> and <a href="https://jquery.com/" target="_blank">jQuery</a>.</p>
-                    </div>                    
-                    <div class="list-group item">
-                        <h4 class="list-group-item-heading">Backend</h4>
-                        <p class="list-group-item-text">I focus on using <a href="https://www.asp.net/mvc" target="_blank">C#/ASP.Net MVC</a> and <a href="https://nodejs.org" target="_blank">NodeJS</a>.</p>
+                    <div class="card col-12">
+                        <div class="card-body">    
+                            <h6 class="card-title">Frameworks and libraries</h6>
+                            <p>I got a fair knowledge and experience with:</p>
+                            <p><a href="https://angularjs.org/" target="_blank">AngularJS</a>, <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a>, <a href="https://expressjs.com/" target="_blank">Express</a>, <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a> and <a href="https://jquery.com/" target="_blank">jQuery</a>.</p>
+                        </div>
                     </div>
-                    <div class="list-group item">
-                        <h4 class="list-group-item-heading">Web services</h4>
-                        <p class="list-group-item-text">RESTful API's - for integrations and exchanging data between systems.</p>
+                    <div class="card col-12">
+                        <div class="card-body">    
+                            <h6 class="card-title">Backend</h6>
+                            <p>I focus on using:</p>
+                            <p><a href="https://www.asp.net/mvc" target="_blank">C#/ASP.Net MVC</a> and <a href="https://nodejs.org" target="_blank">NodeJS</a>.</p>
+                        </div>
                     </div>
-					<div class="list-group item">
-						<h4 class="list-group-item-heading">Stackshare</h4>
-						<p class="list-group-item-text">Being curious I have been experimenting with a lot of technologies through the years.</p>
-						<p class="list-group-item-text"><a href="https://stackshare.io/Brianmanden/personalstack" target="_blank">Personal stack&#x29C9;</a></p>
+                    <div class="card col-12">
+                        <div class="card-body">    
+                            <h6 class="card-title">Web Services</h6>
+                            <p>RESTful API's - for integrations and exchanging data between systems.</p>
+                        </div>
+                    </div>
+                    <div class="card col-12">
+                        <div class="card-body">    
+                            <h6 class="card-title">Stackshare</h6>
+                            <p>Being curious I have been experimenting with a lot of technologies through the years.</p>
+                            <p><a href="https://stackshare.io/Brianmanden/personalstack" target="_blank">Personal stack&#x29C9;</a></p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-6">
-                <h3 class="page-legend">Working experience</h3>
-                <div class="col-sm-12 item text-left">
-                        <h4>UVdata A/S</h4>
-                        <h5>08.2017 - 06.2019</h5>
-                        <p>At UVdata A/S I developed new features in a big, complex Angular application. I worked with the whole stack - frontend, backend and databases.</p>
-                        <small>Technologies:</small>
-                        <br />
-                        <span class="label">AngularJS</span>
-                        <span class="label">TypeScript</span>
-                        <span class="label">C# / ASP.Net</span>
-						<span class="label">MSSSQL</span>
-                        <span class="label">HTML5</span>
-                        <span class="label">CSS3</span>
-                        <span class="label">Bootstrap</span>
-				</div>
-                <div class="col-sm-12 item text-left">
-                    <h4>Pragmasoft A/S</h4>
-					<h5>08.2016 - 12.2016</h5>
-                    <p>At Pragmasoft A/S I had various tasks in frontend, backend and databases. These tasks included testing, fixing errors, adding new features to existing projects and starting a project from scratch.</p>
-                    <small>Technologies:</small>
-                    <br />
-                    <span class="label">Umbraco CMS</span>
-                    <span class="label">AngularJS</span>
-                    <span class="label">TypeScript</span>
-                    <span class="label">JavaScript</span>
-                    <span class="label">C# / ASP.Net</span>
-                    <span class="label">HTML5</span>
-                    <span class="label">CSS3</span>
-                </div>
-                <div class="col-sm-12 item text-left">
-                    <h4>Økologisk Landsforening</h4>
-					<h5>06.2012 - 06.2013</h5>
-                    <p>At ØLF (NGO) I developed templates used in Umbraco CMS to run okologi.dk - the main site of ØLF. I also developed various campaign sites from given graphical layouts.</p>
-                    <small>Technologies:</small>
-                    <br />
-                    <span class="label">Umbraco CMS</span>
-                    <span class="label">HTML5</span>
-                    <span class="label">CSS3</span>
-                    <span class="label">JavaScript</span>
-                    <span class="label">XML</span>
-                    <span class="label">XSLT</span>
-                </div>
-                <div class="col-sm-12 item text-left">
-                    <h4>CrossMind Reklamebureau</h4>
-					<h5>08.2010 - 04.2011</h5>
-                    <p>At Crossmind (advertising agency) I developed sites from given graphical layouts in Umbraco CMS. I also did minor tasks in content and media editing.</p>
-                    <small>Technologies:</small>
-                    <br />
-                    <span class="label">Umbraco CMS</span>
-                    <span class="label">HTML5</span>
-                    <span class="label">CSS3</span>
-                    <span class="label">JavaScript</span>
-					<span class="label">jQuery</span>
-                    <span class="label">XML</span>
-                    <span class="label">XSLT</span>
-                </div>
-            </div>
+            <div class="row">
+                <div class="col-6">
+                    <h3 class="page-legend">Working experience</h3>
+                    <div class="card col-9">
+                        <div class="card-body">    
+                            <h5 class="card-title">UVdata A/S</h5>
+                            <h6 class="card-subtitle">08.2017 - 06.2019</h6>
+                            <p class="card-text">At UVdata A/S I developed new features in a big, complex Angular application. I worked with the whole stack - frontend, backend and databases.</p>
+                            <h6>Technologies:</h6>
+                            <span class="badge badge-light">AngularJS</span>
+                            <span class="badge badge-light">TypeScript</span>
+                            <span class="badge badge-light">JavaScript</span>
+                            <span class="badge badge-light">C# / ASP.Net</span>
+                            <span class="badge badge-light">MSSQL</span>
+                            <span class="badge badge-light">HTML5</span>
+                            <span class="badge badge-light">CSS3</span>
+                            <span class="badge badge-light">Bootstrap</span>
+                        </div>
+                    </div>
 
-            <div class="col-sm-6 col-md-6">
-                <h3 class="page-legend">CV</h3>
-                <div class="col-sm-12 item text-left">
-					<div class="row">
-						<h4>Curriculum Vitae</h4>
-						<div class="col-sm-6">
-							<a href="http://kree8tive.dk/CV/CV-Resume.pdf" target="_blank">CV English version (PDF format)&#x29C9;</a>
-						</div>
-						<div class="col-sm-6">
-							<a href="http://kree8tive.dk/CV/CV.pdf" target="_blank">CV Danish version (PDF format)&#x29C9;</a>
-						</div>
-					</div>
-                </div>
-            </div>
+                    <div class="card col-9">
+                        <div class="card-body">    
+                            <h5 class="card-title">Pragmasoft A/S</h5>
+                            <h6 class="card-subtitle">08.2016 - 12.2016</h6>
+                            <p class="card-text">At Pragmasoft A/S I had various tasks in frontend, backend and databases. These tasks included testing, fixing errors, adding new features to existing projects and starting a project from scratch.</p>
+                            <h6>Technologies:</h6>
+                            <span class="badge badge-light">Umbraco CMS</span>
+                            <span class="badge badge-light">AngularJS</span>
+                            <span class="badge badge-light">TypeScript</span>
+                            <span class="badge badge-light">JavaScript</span>
+                            <span class="badge badge-light">C# / ASP.Net</span>
+                            <span class="badge badge-light">Lucene</span>
+                            <span class="badge badge-light">HTML5</span>
+                            <span class="badge badge-light">CSS3</span>
+                        </div>
+                    </div>
 
-            <div class="col-sm-6 col-md-6">
-                <h3 class="page-legend">LinkedIn</h3>
-                <div class="col-sm-12 item text-left">
-                    <h4>My LinkedIn profile</h4>
-                    <p>Have a look at my LinkedIn profile: <a href="https://www.linkedin.com/in/brianjuulandersen/" target="_blank">LinkedIn&#x29C9;</a></p>
-					<p>Feel free to connect with me.</p>
-                </div>
-            </div>
+                    <div class="card col-9">
+                        <div class="card-body">    
+                            <h5 class="card-title">Økologisk Landsforening</h5>
+                            <h6 class="card-subtitle">06.2012 - 06.2013</h6>
+                            <p class="card-text">At ØLF (NGO) I developed templates used in Umbraco CMS to run okologi.dk - the main site of ØLF. I also developed various campaign sites from given graphical layouts.</p>
+                            <h6>Technologies:</h6>
+                            <span class="badge badge-light">Umbraco CMS</span>
+                            <span class="badge badge-light">HTML5</span>
+                            <span class="badge badge-light">CSS3</span>
+                            <span class="badge badge-light">JavaScript</span>
+                            <span class="badge badge-light">XML</span>
+                            <span class="badge badge-light">XSLT</span>
+                        </div>
+                    </div>
 
-            <div class="col-sm-6 col-md-6">
-                <h3 class="page-legend">GitHub</h3>
-                <div class="col-sm-12 item text-left">
-                    <h4>My GitHub page</h4>
-                    <p>It mostly contains my experiments and hobby projects <a href="https://github.com/Brianmanden/" target="_blank">GitHub&#x29C9;</a></p>
+                    <div class="card col-9">
+                        <div class="card-body">    
+                            <h5 class="card-title">CrossMind Reklamebureau</h5>
+                            <h6 class="card-subtitle">08.2010 - 04.2011</h6>
+                            <p class="card-text">At Crossmind (advertising agency) I developed sites from given graphical layouts in Umbraco CMS. I also did minor tasks in content and media editing.</p>
+                            <h6>Technologies:</h6>
+                            <span class="badge badge-light">Umbraco CMS</span>
+                            <span class="badge badge-light">HTML5</span>
+                            <span class="badge badge-light">CSS3</span>
+                            <span class="badge badge-light">JavaScript</span>
+                            <span class="badge badge-light">jQuery</span>
+                            <span class="badge badge-light">XML</span>
+                            <span class="badge badge-light">XSLT</span>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            
+                <div class="col-6">
+                    <h3 class="page-legend">CV</h3>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Curriculum Vitae</h5>
+                            <p class="card-text">
+                                <a href="http://kree8tive.dk/CV/CV-Resume.pdf" target="_blank">CV English version (PDF format)&#x29C9;</a>
+                            </p>
+                            <p class="card-text">
+                                <a href="http://kree8tive.dk/CV/CV.pdf" target="_blank">CV Danish version (PDF format)&#x29C9;</a>
+                            </p>
+                        </div>
+                    </div>
+                        
+                    <h3 class="page-legend">LinkedIn</h3>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">My LinkedIn profile</h5>
+                            <p class="card-text">Have a look at my LinkedIn profile: <a href="https://www.linkedin.com/in/brianjuulandersen/" target="_blank">LinkedIn&#x29C9;</a></p>
+                            <p class="card-text">Feel free to connect with me.</p>
+                        </div>
+                    </div>
 
-            <div class="col-sm-6 col-md-6">
-                <h3 class="page-legend">Education</h3>
-                <div class="col-sm-12 item text-left">
-                    <h4>Prof. Bach. in Web Development</h4>
-                    <p>From 2014 to 2016 I achieved a professional bachelor's degree in web development with outstanding results.</p>
-					<p>Diploma on request.</p>
-					<p><a href="https://www.baaa.dk/programmes/bachelors-top-up-degree/web-development/" target="_blank">Info on the course&#x29C9;</a></p>
-                </div>
-                <div class="col-sm-12 item text-left">
-                    <h4>Multimedia Designer</h4>
-                    <p>From 2004 to 2006 I studied Multimedia Design and Communication.</p>
-					<p>Diploma on request.</p>
-					<p><a href="https://www.baaa.dk/programmes/ap-degree/multimedia-design/" target="_blank">Info on the course&#x29C9;</a></p>
+                    <h3 class="page-legend">GitHub</h3>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">My GitHub page</h5>
+                            <p class="card-text">It mostly contains my experiments and hobby projects:</p>
+                            <p class="card-text"><a href="https://github.com/Brianmanden/" target="_blank">GitHub&#x29C9;</a></p>
+                        </div>
+                    </div>
+
+                    <h3 class="page-legend">Education</h3>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Prof. Bach. in Web Development</h5>
+                            <p class="card-text">From 2014 to 2016 I achieved a professional bachelor's degree in web development with outstanding results.</p>
+                            <p class="card-text">Diploma on request.</p>
+                            <p class="card-text"><a href="https://www.baaa.dk/programmes/bachelors-top-up-degree/web-development/" target="_blank">Info on the course&#x29C9;</a></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Multimedia Designer</h5>
+                            <p class="card-text">From 2004 to 2006 I studied Multimedia Design and Communication.</p>
+                            <p class="card-text">Diploma on request.</p>
+                            <p class="card-text"><a href="https://www.baaa.dk/programmes/ap-degree/multimedia-design/" target="_blank">Info on the course&#x29C9;</a></p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
 
+    </div>
+
 		<link href="./styles/style.css" rel="stylesheet" />
 
-		<script src="./scripts/jquery-3.2.1.slim.min.js"></script>
-		<script src="./scripts/bootstrap.min.js"></script>
+		<!-- <script src="./scripts/jquery-3.2.1.slim.min.js"></script> -->
+        <!-- <script src="./scripts/bootstrap.min.js"></script> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         <script src="./scripts/script.js"></script>
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-9800473-1"></script>
 		<script>
