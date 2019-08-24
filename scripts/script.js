@@ -14,9 +14,13 @@ function addListener(element, eventName, handler) {
 addListener(
 	document.getElementById('contact-info'),
 	'click', function(){
-	window.open('mailto:mail@kree8tive.dk?subject=Hi there ...&body=Hello%0A%0AI want to talk to you about...' ,'_blank');
-});
+		window.open('mailto:mail@kree8tive.dk?subject=Hi there ...&body=Hello%0A%0AI want to talk to you about...' ,'_blank');
+	}
+);
 
 $(document).ready(function() {
-	$('.carousel').carousel({interval: 6500});
+	$('.carousel').carousel({
+		interval: 5500,
+		pause: 'none'
+	})
   });
