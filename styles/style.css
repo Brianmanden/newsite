@@ -9,16 +9,21 @@ html, body{
     z-index: -99; 
 }
 
+.carousel .carousel-item {
+    display: block;
+    /* left: 0;
+    opacity: 0; */
+    transition: opacity 5s ease-out;
+    /* width: 100%; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 .carousel .carousel-item.active {
     opacity: 1;
     transition: opacity 5s ease-in;
-}
-
-.carousel .carousel-item {
-    display: block;
-    left: 0;
-    opacity: 0;
-    transition: opacity 5s ease-out;
 }
 
 .container-fluid{
