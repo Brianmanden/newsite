@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/brianmanden
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://kree8tive.dk
+  * I am brianmanden (https://keybase.io/brianmanden) on keybase.
+  * I have a public key ASD3ZWu0G73H7ch0JNXEshYDHY5_6oOyLaXppUFJgqUR6Qo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120149ba58324af817b05787898eb614ef3dbda90c319fcc5416aafa67117c6acb60a",
+      "host": "keybase.io",
+      "kid": "0120f7656bb41bbdc7edc87424d5c4b216031d8e7fea83b22da5e9a5414982a511e90a",
+      "uid": "044427157b9832f9c13812ece1e86d19",
+      "username": "brianmanden"
+    },
+    "merkle_root": {
+      "ctime": 1568086985,
+      "hash": "991317a206fb1efbc051a304645aa9947bcaef33190db648a5872ca66c3e0d675847855de0e60122a185c28127ec06def0afb3c55d032db85ca1f1f61dfaad7d",
+      "hash_meta": "188609ffb26080bb0f7a5d1618cf0bec97a066831dd8fb8272f4f39ad6ac78b2",
+      "seqno": 6304583
+    },
+    "service": {
+      "entropy": "Xh+WNx20UmkVjySCrDgb/Xay",
+      "hostname": "kree8tive.dk",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.4.1"
+  },
+  "ctime": 1568086996,
+  "expire_in": 504576000,
+  "prev": "e73cb130292ca9c6fd40c275c35fc56c19075cbe23df29b48e7ee52dcc6779b1",
+  "seqno": 67,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg92VrtBu9x+3IdCTVxLIWAx2Of+qDsi2l6aVBSYKlEekKp3BheWxvYWTESpcCQ8Qg5zyxMCksqcb9QMJ1w1/FbBkHXL4j3ym0jn7lLcxnebHEICIMqOo8Qr/1/tyuH8cBqQ1HCLGjCLs5N3Inu5SCgY1lAgHCo3NpZ8RAGDVs7Q4K1LSckIBQOXCJB++u9z1AHmzFpK+rAmJqq8XTkbDybFJFqihBceFpTdtpvrpVL2XnIvRdM99vMlE1BahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIKk+EUyNWVmMqSxK1YvzkUXVSwOBB1dK/AC433W6t3iRo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/brianmanden
+
+==================================================================
