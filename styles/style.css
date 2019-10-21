@@ -127,10 +127,35 @@ h4{
     cursor: pointer;
     font-size: 26px;
     padding: 10px;
+    transition: all 750ms;
+}
+
+#contact-info .glyphicon{
+    display: inline-block;
 }
 
 #contact-info:hover{
+    animation-duration: 2.5s;
     background: rgba(220, 220, 220, 0.6);
+    transition: all 750ms;
+}
+
+#contact-info:hover span{
+    animation-name: wave-animation;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate(  0.0deg) }
+    10% { transform: rotate(-10.0deg) }
+    20% { transform: rotate( 12.0deg) }
+    30% { transform: rotate(-10.0deg) }
+    40% { transform: rotate(  9.0deg) }
+    50% { transform: rotate(  0.0deg) }
+    100% { transform: rotate(  0.0deg) }
 }
 
 .who-am-i{
