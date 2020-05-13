@@ -1,183 +1,202 @@
-html, body{
-    width: 93%;
+html,
+body {
+  width: 93%;
 }
 
-#carouselFade{
-    filter: opacity(50%);
-    position: fixed;
-    width: 100%;
-    z-index: -99; 
+#carouselFade {
+  filter: opacity(50%);
+  position: fixed;
+  width: 100%;
+  z-index: -99;
 }
 
 .carousel .carousel-item {
-    display: block;
-    transition: opacity 5s ease-out;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+  display: block;
+  transition: opacity 5s ease-out;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .carousel .carousel-item.active {
-    opacity: 1;
-    transition: opacity 5s ease-in;
+  opacity: 1;
+  transition: opacity 5s ease-in;
 }
 
-.container-fluid{
-	background:rgba(255, 255, 255, 0.65);
-	border: 1px solid rgba(230, 230, 230, 0.1);
-    border-radius: 15px;
-	box-shadow: -10px 10px 30px 5px rgba(100, 100, 100, 0.12);
-    margin: 8%;
-	margin-top: 0;
-    padding: 1% 5% 8%;
-	position: relative;
-	top: 30px;
+.container-fluid {
+  background: rgba(255, 255, 255, 0.65);
+  border: 1px solid rgba(230, 230, 230, 0.1);
+  border-radius: 15px;
+  box-shadow: -10px 10px 30px 5px rgba(100, 100, 100, 0.12);
+  margin: 8%;
+  margin-top: 0;
+  padding: 1% 5% 8%;
+  position: relative;
+  top: 30px;
 }
 
-.card{
-    background: rgba(255, 255, 255, 0.5);
-    border-radius: 5px;
-	box-shadow:
-		-10px 10px 16px 0px rgba(0,0,0,0.05),
-		-3px 3px 10px 1px rgba(0,0,0,0.05),
-		-10px 10px 10px 1px rgba(0,0,0,0.05),
-		-1px 1px 10px 3px rgba(204, 34, 34, 0);
-    margin: 0 5px 20px 5px;
-	transition: all 750ms;
+.card {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  box-shadow: -10px 10px 16px 0px rgba(0, 0, 0, 0.05),
+    -3px 3px 10px 1px rgba(0, 0, 0, 0.05),
+    -10px 10px 10px 1px rgba(0, 0, 0, 0.05),
+    -1px 1px 10px 3px rgba(204, 34, 34, 0);
+  margin: 0 5px 20px 5px;
+  transition: all 750ms;
 }
 
-.card:hover{
-    background: rgba(255, 255, 255, 0.8);
-    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.5);
+.card:hover {
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.5);
 }
 
-a{
-    color: #000;
-    font-weight: bold;
+a {
+  color: #000;
+  font-weight: bold;
 }
 
-a:hover{
-    border-bottom: 1px solid rgba(255, 0, 0, 0.8);
-    color: #222;
-    text-decoration: none;
+a:hover {
+  border-bottom: 1px solid rgba(255, 0, 0, 0.8);
+  color: #222;
+  text-decoration: none;
 }
 
-h3, .h3{
-    font-size: 21px;
+.no-hover:hover {
+  border-bottom: none;
 }
 
-.red{
-    color: rgba(255, 0, 0, 0.8);
+h3,
+.h3 {
+  font-size: 21px;
 }
 
-h3::first-letter{
-    color: rgba(255, 0, 0, 0.8);
-    font-size: 220%;
-	font-weight: 100;
+.red {
+  color: rgba(255, 0, 0, 0.8);
 }
 
-h3.page-legend-kree8tive::first-letter{
-    color: unset;
+h3::first-letter {
+  color: rgba(255, 0, 0, 0.8);
+  font-size: 220%;
+  font-weight: 100;
 }
 
-h4{
-    font-size: 14px;
-    font-weight: bold;
+h3.page-legend-kree8tive::first-letter {
+  color: unset;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .page-header {
-    background:rgba(255, 255, 255, 0.15);
-    border-bottom: none;
-    border-radius: 25px;
-    margin: 0 0 50px 10px;
-    padding: 25px;
-    padding-top: 55px;
-    width: 100%;
+  background: rgba(255, 255, 255, 0.15);
+  border-bottom: none;
+  border-radius: 25px;
+  margin: 0 0 50px 10px;
+  padding: 25px;
+  padding-top: 55px;
+  width: 100%;
 }
 
-.card-footer small{
-    margin-left: 20px;
+.card-footer small {
+  margin-left: 20px;
 }
 
 .page-legend {
-    background:rgba(255, 255, 255, 0.4);
-    border-bottom: none;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    display: inline-block;
-    margin: 15px 0 0 10px;
-    padding: 0 15px;
+  background: rgba(255, 255, 255, 0.4);
+  border-bottom: none;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  display: inline-block;
+  margin: 15px 0 0 10px;
+  padding: 0 15px;
 }
 
-.profile-img{
-    border-radius: 5px;
-    margin-bottom: 25px;
-	width: 100%;
+.profile-img {
+  border-radius: 5px;
+  margin-bottom: 25px;
+  width: 100%;
 }
 
-.glyphicon-envelope{
-    font-weight: bold;
-    padding-left: 20px;
+.glyphicon-envelope {
+  font-weight: bold;
+  padding-left: 20px;
 }
 
-#contact-info{
-    background: rgba(200, 200, 200, 0.5);
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 26px;
-    padding: 10px;
-    transition: all 750ms;
+#contact-info {
+  background: rgba(200, 200, 200, 0.5);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 26px;
+  padding: 10px;
+  transition: all 750ms;
 }
 
-#contact-info .glyphicon{
-    display: inline-block;
+#contact-info .glyphicon {
+  display: inline-block;
 }
 
-#contact-info:hover{
-    animation-duration: 2.5s;
-    background: rgba(220, 220, 220, 0.6);
-    transition: all 750ms;
+#contact-info:hover {
+  animation-duration: 2.5s;
+  background: rgba(220, 220, 220, 0.6);
+  transition: all 750ms;
 }
 
-#contact-info:hover span{
-    animation-name: wave-animation;
-    animation-duration: 2.5s;
-    animation-iteration-count: infinite;
-    transform-origin: 70% 70%;
-    display: inline-block;
+#contact-info:hover span {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
 }
 
 @keyframes wave-animation {
-    0% { transform: rotate(  0.0deg) }
-    10% { transform: rotate(-10.0deg) }
-    20% { transform: rotate( 12.0deg) }
-    30% { transform: rotate(-10.0deg) }
-    40% { transform: rotate(  9.0deg) }
-    50% { transform: rotate(  0.0deg) }
-    100% { transform: rotate(  0.0deg) }
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(-10deg);
+  }
+  20% {
+    transform: rotate(12deg);
+  }
+  30% {
+    transform: rotate(-10deg);
+  }
+  40% {
+    transform: rotate(9deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
-.who-am-i{
-    padding: 8% 16%;
+.who-am-i {
+  padding: 8% 16%;
 }
 
-.label{
-    background: rgba(255, 255, 255, 0.5);
-    color: #000;
+.label {
+  background: rgba(255, 255, 255, 0.5);
+  color: #000;
 }
 
-.logo-container{
-    background: unset;
-    margin: 30px 0 25px;
-    padding-top: 10px;
+.logo-container {
+  background: unset;
+  margin: 30px 0 25px;
+  padding-top: 10px;
 }
 
-.logo-container img{
-    height: 100px;
+.logo-container img {
+  height: 100px;
 }
 
 .logo-container .col-xs-4 img,
-.logo-container .col-sm-4 img{
-    height: 70px;
+.logo-container .col-sm-4 img {
+  height: 70px;
 }
