@@ -9,16 +9,22 @@ function addListener(element, eventName, handler) {
   }
 }
 
-addListener(document.getElementById("contact-info"), "click", function() {
+addListener(document.getElementById("contact-info"), "click", function () {
   window.open(
     "mailto:mail@kree8tive.dk?subject=Hi there ...&body=Hello%0A%0AI want to talk to you about...",
     "_blank"
   );
 });
 
-$(document).ready(function() {
-  $(".carousel").carousel({
-    interval: 5500,
-    pause: "none"
-  });
+// $(document).ready(function() {
+//   $(".carousel").carousel({
+//     interval: 5500,
+//     pause: "none"
+//   });
+// });
+
+var myCarousel = document.querySelector(".carousel");
+var carousel = new bootstrap.Carousel(myCarousel, {
+  interval: 5500,
+  pause: "none",
 });
