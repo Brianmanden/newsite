@@ -1,14 +1,4 @@
-/--- contact --/;
-function addListener(element, eventName, handler) {
-  if (element.addEventListener) {
-    element.addEventListener(eventName, handler, false);
-  } else if (element.attachEvent) {
-    element.attachEvent("on" + eventName, handler);
-  } else {
-    element["on" + eventName] = handler;
-  }
-}
-
+// --- contact ---
 addListener(document.getElementById("contact-info"), "click", function () {
   window.open(
     "mailto:mail@kree8tive.dk?subject=Hi there ...&body=Hello%0A%0AI want to talk to you about...",
@@ -16,13 +6,7 @@ addListener(document.getElementById("contact-info"), "click", function () {
   );
 });
 
-// $(document).ready(function() {
-//   $(".carousel").carousel({
-//     interval: 5500,
-//     pause: "none"
-//   });
-// });
-
+// --- carousel ---
 var myCarousel = document.querySelector(".carousel");
 var carousel = new bootstrap.Carousel(myCarousel, {
   interval: 5500,
