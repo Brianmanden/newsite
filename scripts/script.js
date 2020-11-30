@@ -1,5 +1,5 @@
 // --- contact ---
-addListener(document.getElementById("contact-info"), "click", function () {
+document.getElementById("contact-info").addEventListener('click', () => {
   window.open(
     "mailto:mail@kree8tive.dk?subject=Hi there ...&body=Hello%0A%0AI want to talk to you about...",
     "_blank"
