@@ -44,35 +44,14 @@ body {
     -10px 10px 10px 1px rgba(0, 0, 0, 0.05),
     -1px 1px 10px 3px rgba(204, 34, 34, 0);
   margin: 0 5px 20px 5px;
-  position: relative;
   transition: all 750ms;
-}
-
-.card::after {
-  border-radius: 9px;
-  box-shadow: -10px 10px 16px 0px rgba(0, 0, 0, 0.05),
-    -3px 3px 10px 1px rgba(0, 0, 0, 0.05),
-    -10px 10px 10px 1px rgba(0, 0, 0, 0.05),
-    -1px 1px 10px 3px rgba(204, 34, 34, 0);
-  content: "";
-  height: 100%;
-  left: 0;
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  transition: all 750ms;
-  width: 100%;
 }
 
 .card:hover {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.5);
   transform: scale(1.02);
-  transition: all 750ms;
-}
-
-.card:hover::after {
-  opacity: 1;
-  transition: all 750ms;
 }
 
 a {
